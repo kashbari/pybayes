@@ -16,7 +16,12 @@ PyBayes
 
 
 
-Bayesian Filters and Estimators
+Bayesian Filters and other Bayesian Estimation Tools.
+Resources on Bayesian Filtering/Tracking:
+
+Bayesian Multiple Target Tracking by Stone, Streit, and Corwin
+Bayesian Estimation and Tracking by Haug
+Applied Optimal Estimation by Gelb
 
 
 * Free software: MIT license
@@ -26,7 +31,20 @@ Bayesian Filters and Estimators
 Features
 --------
 
-* TODO
+* filter.KalmanFilter                 --> KF and EKF implementation
+* filter.UnscentedKalmanFilter        --> UKF and SQ-UKF implementation
+* filter.ParticleFilter               --> PF implementation
+* filter.SquareRootInformationFilter  --> SR-IF implementation
+
+Demo of some of the features:
+
+```python
+import pybayes
+
+
+```
+
+
 
 Credits
 -------
