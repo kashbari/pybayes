@@ -38,11 +38,11 @@ Features
 
 Demo of some of the features:
 
-```python
+``python
 import pybayes
 
 
-```
+``
 
 
 
